@@ -9,10 +9,10 @@
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
-		<li {% if page.url == '/' %}class="active"{% endif %} ><a href="/"><i class="material-icons left">home</i>Home</a></li>
-		<li {% if page.url == '/projects/' %}class="active"{% endif %} ><a href="/projects"><i class="material-icons left">work</i>Projects</a></li>
-		<li {% if page.url == '/contact/' %}class="active"{% endif %} ><a href="/contact"><i class="material-icons left">call</i>Contact</a></li>
-		<li {% if page.url == '/resume/' %}class="active"{% endif %} ><a href="/resume"><i class="material-icons left">description</i>Resume</a></li>
+		<li {% if page.url == '/' %}class="active"{% endif %} ><a href="{{site.baseurl}}/"><i class="material-icons left">home</i>Home</a></li>
+		<li {% if page.url == '/projects/' %}class="active"{% endif %} ><a href="{{site.baseurl}}/projects"><i class="material-icons left">work</i>Projects</a></li>
+		<li {% if page.url == '/contact/' %}class="active"{% endif %} ><a href="{{site.baseurl}}/contact"><i class="material-icons left">call</i>Contact</a></li>
+		<li {% if page.url == '/resume/' %}class="active"{% endif %} ><a href="{{site.baseurl}}/resume"><i class="material-icons left">description</i>Resume</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse white-text"><i class="material-icons">menu</i></a>
 	</div>
