@@ -2,14 +2,14 @@
     <div class="nav-wrapper container">
       <a id="logo-container" href="{{ site.baseurl }}/" class="brand-logo white-text">{{ site.title }}</a>
       <ul class="right hide-on-med-and-down">
-        <li {% if page.url == '/index.html' %}class="active"{% endif %} ><a class="white-text" href="{{site.baseurl}}/"><i class="material-icons left">home</i>Home</a></li>
+        <li {% if page.url == '/' %}class="active"{% endif %} ><a class="white-text" href="{{site.baseurl}}/"><i class="material-icons left">home</i>Home</a></li>
 		<li {% if page.url == '/projects/' %}class="active"{% endif %} ><a class="white-text" href="{{site.baseurl}}/projects"><i class="material-icons left">work</i>Projects</a></li>
 		<li {% if page.url == '/contact/' %}class="active"{% endif %} ><a class="white-text" href="{{site.baseurl}}/contact"><i class="material-icons left">call</i>Contact</a></li>
 		<li {% if page.url == '/resume/' %}class="active"{% endif %} ><a class="white-text" href="{{site.baseurl}}/resume"><i class="material-icons left">description</i>Resume</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
-		<li {% if page.url == '/index.html' %}class="active"{% endif %} ><a href="/"><i class="material-icons left">home</i>Home</a></li>
+		<li {% if page.url == '/' %}class="active"{% endif %} ><a href="/"><i class="material-icons left">home</i>Home</a></li>
 		<li {% if page.url == '/projects/' %}class="active"{% endif %} ><a href="/projects"><i class="material-icons left">work</i>Projects</a></li>
 		<li {% if page.url == '/contact/' %}class="active"{% endif %} ><a href="/contact"><i class="material-icons left">call</i>Contact</a></li>
 		<li {% if page.url == '/resume/' %}class="active"{% endif %} ><a href="/resume"><i class="material-icons left">description</i>Resume</a></li>
